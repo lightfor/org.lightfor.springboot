@@ -1,5 +1,6 @@
 package org.lightfor.springboot;
 
+import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
@@ -8,6 +9,7 @@ import javax.persistence.Id;
  * 领域模型
  * Created by Light on 2017/5/13.
  */
+@Entity
 public class Book {
 
     @Id
