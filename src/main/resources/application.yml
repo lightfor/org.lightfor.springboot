@@ -1,0 +1,33 @@
+server:
+  port: 8000
+spring:
+  main:
+    show-banner: false
+#  datasource:
+#    url: jdbc:mysql://localhost/readinglist
+#    username: test
+#    password: test
+#    driver-class-name: com.mysql.jdbc.Driver
+#    jndi-name: java:/comp/env/jdbc/readingListDS
+  thymeleaf:
+    cache: false
+amazon:
+  assoicateId: light
+#logging:
+#  level:
+#    root: INFO
+#spring:
+#  profiles: development
+#  thymeleaf:
+#    cache: false
+logging:
+  level:
+    root: DEBUG
+#--spring.profiles.active=production
+#spring:
+#  profiles: production
+#logging:
+#  path:/tmp/
+#  file: BookWorm.log
+#  level:
+#    root: WARN
